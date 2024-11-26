@@ -1,9 +1,11 @@
 # Mutation Testing with Pitest
 
 ## Project Aim
-The aim of this project is to implement **Mutation Testing** on Java code using Pitest to ensure high-quality test coverage. This project facilitates comprehensive mutation analysis and identifies weaknesses in the test suite by introducing controlled code changes (mutations) and verifying if the test cases fail accordingly.
+This project implements mutation testing for various numerical and matrix operations. Mutation testing is a technique used to evaluate the effectiveness of test cases by intentionally introducing small changes (mutations) into the source code. The aim of this project is to analyze and ensure that the existing test cases are robust enough to detect these mutations.
 
----
+The project involves multiple numerical operations like GCD, factorial calculation, Kruskal's algorithm for Minimum Spanning Tree, and various matrix operations. It leverages the PIT mutation testing framework to evaluate the test cases and provides detailed mutation coverage reports. Mutation operators are applied at both the unit and integration levels to simulate real-world defects in the code and assess the reliability of the tests.
+
+By applying mutation testing, the project helps identify weaknesses in the test suite and ensures high-quality software by ensuring that the test cases effectively catch faults in the codebase.
 
 ## Tools Used
 - **Pitest**: For mutation testing.
